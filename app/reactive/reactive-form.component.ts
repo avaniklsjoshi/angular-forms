@@ -32,8 +32,7 @@ export class ReactiveFormComponent implements OnInit{
         minlength:'Country must be 3 characters.'
       }
     }
-  };
- 
+  }; 
   constructor(private fb:FormBuilder){}
   ngOnInit() {
     // build the data model for our form
